@@ -21,10 +21,13 @@ namespace TelegramCalcBot.Models
             }
 
             commandsList = new List<Command>();
-            commandsList.Add(new HelloCommand());
+            commandsList.Add(new RPN());
+            commandsList.Add(new Arifmometr());
+            commandsList.Add(new Start());
             //TODO: Add more commands
 
             client = new TelegramBotClient(AppSettings.Key);
+            
             var hook = string.Format(AppSettings.Url, "api/message/update");
             await client.SetWebhookAsync(hook);
 

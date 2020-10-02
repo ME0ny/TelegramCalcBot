@@ -11,7 +11,7 @@ namespace TelegramCalcBot.Models.Commands
 
         public bool Contains(string command)
         {
-            return command.Contains(this.Name) && command.Contains(AppSettings.Name);
+            return command.Contains(this.Name);
         }
 
     }

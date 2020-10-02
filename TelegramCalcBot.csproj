@@ -163,8 +163,11 @@
     </Compile>
     <Compile Include="Models\AppSettings.cs" />
     <Compile Include="Models\Bot.cs" />
+    <Compile Include="Models\Calculator\Calculation.cs" />
+    <Compile Include="Models\Commands\Arifmometr.cs" />
     <Compile Include="Models\Commands\Command.cs" />
-    <Compile Include="Models\Commands\HelloCommand.cs" />
+    <Compile Include="Models\Commands\RPN.cs" />
+    <Compile Include="Models\Commands\Start.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
